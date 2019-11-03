@@ -7,6 +7,30 @@
     {
       "content": "best feature ever <3",
       "id": 2
+    },
+    {
+      "content": "teppo on parempi kuin matti",
+      "id": 3
+    },
+    {
+      "content": "teppo on parempi kuin matti",
+      "id": 4
+    },
+    {
+      "content": "johwn wayne vei ne",
+      "id": 5
+    },
+    {
+      "content": "pakkaselle menee",
+      "id": 6
+    },
+    {
+      "content": "täysi pino auki",
+      "id": 7
+    },
+    {
+      "content": "zamboo",
+      "id": 8
     }
   ],
   "persons": [
@@ -14,6 +38,16 @@
       "name": "mluukkai",
       "number": "040-5483923",
       "id": 1
+    },
+    {
+      "name": "mvuoti",
+      "number": "040-7373748873",
+      "id": 2
+    },
+    {
+      "name": "juma radios",
+      "number": "93399293",
+      "id": 3
     }
   ]
 }

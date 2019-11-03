@@ -16,15 +16,23 @@ const useField = (type) => {
   }
 }
 
+// EXCERCISE 5.21 /////////////////////////////////// 
 const useResource = (baseUrl) => {
   const [resources, setResources] = useState([])
 
-  // ...
+  const fetchResources = () => 
+    axios.get(baseUrl)
+    .then(r => setResources(r.data))
 
   const create = (resource) => {
-    // ...
+    axios.post(baseUrl, resource)
+      .then(setResources([...resources, resource]))
   }
 
+  useEffect(() => {
+    fetchResources();
+  }, [])
+  
   const service = {
     create
   }
@@ -33,6 +41,7 @@ const useResource = (baseUrl) => {
     resources, service
   ]
 }
+//////////////////////////////////////////////////////
 
 const App = () => {
   const content = useField('text')
